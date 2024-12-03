@@ -1,124 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="formulario.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 3</title>
 
-        <title>Actividad 3</title>
-</head>
-<body>
-        <header>
-                <h1>Mi Pagina Web</h1>
-                <nav>
-                        <ul>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                        </ul>
-                </nav>
-        </header>
-       <main>
-        
-      
-        <section id="Inicio">
-                <h2>Bienvenido</h2>
-                <p>Texto de introduccion...</p>
-        </section>
-        <section>
-                <h2>Nuestros Servicios</h2>
-                <p>Descripción de servicios...</p>
-        </section>
-        <aside>
-                <h3>Articulos Relacionados</h3>
-                <ul>
-                        <li><a href="#">Articulo 1 </a></li>
-                        <li><a href="#">Articulo 2</a></li>
-                </ul>
-        </aside>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Aca hay que mejorar el header , falta la navegacion -->
+    <header class="bg-primary text-white text-center p-3">
+      <h1>Inicio</h1>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="formulario.html">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="selectores.html">Selectores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="etiquetas_semanticas.html"
+              >Etiquetas Semánticas</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+      <section id="Inicio">
+        <h2>Bienvenido</h2>
+        <p>Texto de introducción...</p>
+      </section>
+<!-- Aca hay que mejorar la seccion servicios, le falta contenido -->
+      <section>
+        <h2>Nuestros Servicios</h2>
+        <p>Descripción de servicios...</p>
+      </section>
+
+      <aside>
+        <h3>Artículos Relacionados</h3>
+        <ul>
+          <li><a href="#">Artículo 1</a></li>
+          <li><a href="#">Artículo 2</a></li>
+        </ul>
+      </aside>
 
       <div>
-      <h1>Titulo 1</h1> 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptas aperiam delectus corrupti reiciendis soluta id? Autem molestias nemo praesentium corrupti voluptatum, explicabo officia vero, unde obcaecati deserunt rem doloribus.</p>
+        <h1>Título 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          voluptas aperiam delectus corrupti reiciendis soluta id? Autem
+          molestias nemo praesentium corrupti voluptatum, explicabo officia
+          vero, unde obcaecati deserunt rem doloribus.
+        </p>
+      </div>
+<div>
+   <h2>Título 2</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        recusandae omnis blanditiis doloremque quidem neque voluptatum. Eum
+        commodi illum ullam enim quod consequatur deleniti? Eaque quidem
+        possimus maiores nisi placeat!
+      </p>
+</div>
+     
+<div>
+   <h3>Título 3</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A at itaque
+        odit mollitia, dignissimos, quos consequuntur fugiat eius eos suscipit
+        exercitationem molestiae velit beatae cum quisquam libero! Laborum, eos
+        consectetur.
+      </p>
+</div>
+     
+
+      <div>
+        <table class="table custom-table">
+          <thead>
+            <tr>
+              <th>Encabezado 1</th>
+              <th>Encabezado 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fila 1, Columna 1</td>
+              <td>Fila 1, Columna 2</td>
+            </tr>
+            <tr>
+              <td>Fila 2, Columna 1</td>
+              <td>Fila 2, Columna 2</td>
+            </tr>
+            <tr>
+              <td>Fila 3, Columna 1</td>
+              <td>Fila 3, Columna 2</td>
+            </tr>
+            <!-- Más filas aquí si es necesario -->
+          </tbody>
+        </table>
       </div>
 
+      <form>
+        <label for="radio1">Opción 1</label>
+        <input type="radio" id="radio1" name="radio" value="radio1" />
 
-<h2>Titulo 2</h2>
+        <label for="radio2">Opción 2</label>
+        <input type="radio" id="radio2" name="radio" value="radio2" />
+      </form>
 
-<p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae omnis blanditiis doloremque quidem neque voluptatum. Eum commodi illum ullam enim quod consequatur deleniti? Eaque quidem possimus maiores nisi placeat!
-</p>
-<h3>titulo 3</h3>
-<p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A at itaque odit mollitia, dignissimos, quos consequuntur fugiat eius eos suscipit exercitationem molestiae velit beatae cum quisquam libero! Laborum, eos consectetur.
-</p>
+      <div>
+        <a
+          href="https://www.wikipedia.org/"
+          target="_blank"
+          class="btn btn-link"
+          >Wikipedia</a
+        >
+        <a href="formulario.html" class="btn btn-link">Formulario</a>
+      </div>
 
-
-<div>
-<table class="custom-table">
-        <thead>
-            <tr>
-                <th>Encabezado 1</th>
-                <th>Encabezado 2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Fila 1, Columna 1</td>
-                <td>Fila 1, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 2, Columna 1</td>
-                <td>Fila 2, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 3, Columna 1</td>
-                <td>Fila 3, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 4, Columna 1</td>
-                <td>Fila 4, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 5, Columna 1</td>
-                <td>Fila 5, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 6, Columna 1</td>
-                <td>Fila 6, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 7, Columna 1</td>
-                <td>Fila 7, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 8, Columna 1</td>
-                <td>Fila 8, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 9, Columna 1</td>
-                <td>Fila 9, Columna 2</td>
-            </tr>
-            <tr>
-                <td>Fila 10, Columna 1</td>
-                <td>Fila 10, Columna 2</td>
-            </tr>
-        </tbody>
-    </table>
-<br><br><br>
-
-  <label for="Etiqueta"></label>
-    <input type="radio" id="radio" name="radio" value="radio">
-    <label for="xxxx"></label>
+      <a
+        href="https://www.w3schools.com/html/html5_semantic_elements.asp"
+        target="_blank"
+        >w3schools</a
+      >
+    </main>
 
 
-    <br><br><br>
-</div>
-<footer>
-        <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
-</footer>
-</main>
-</body>
+
+
+    <br /><br />
+
+
+
+
+
+
+
+    <div class="contenedorflex">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
 </html>

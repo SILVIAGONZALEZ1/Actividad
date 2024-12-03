@@ -1,0 +1,38 @@
+
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        font-size: 14px;
+    }
+
+@media (min-width: 768px){
+        body {
+                font-size: 16px;
+        }
+}
+
+    .contenedor-flex {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid red;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .contenedor-flex {
+                flex-direction: column;
+                width: 80%;
+        }
+    }
+
+    img{
+        width: 100%;
+
+    }
+
+    @media ( max-width: 600px) {
+        img{
+                width: 50%;
+        }
+    }

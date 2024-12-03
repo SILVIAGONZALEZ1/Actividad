@@ -1,0 +1,119 @@
+/* styles.css */
+
+    
+    .header {
+        background-color: #004080;
+        color: white;
+        padding: 20px;
+    }
+    
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .header-nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-nav li {
+        margin: 0 10px;
+    }
+    
+    .header-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #0056b3;
+        color: white;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .offers {
+        margin-bottom: 40px;
+    }
+    
+    .offers h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .offer-grid {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .offer {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex: 1;
+    }
+    
+    .experiences h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .experiences-grid {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .experience {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer {
+        background-color: #003366;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer-links li {
+        margin: 10px 0;
+    }
+    
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
